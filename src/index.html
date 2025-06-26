@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>3D Car</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css">
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.167.0/build/three.module.js",
+        "OBJLoader": "https://unpkg.com/three@latest/examples/jsm/loaders/OBJLoader.js",
+        "TeapotGeometry": "../libs/jsm/geometries/TeapotGeometry.js",
+        "GLTFLoader": "../libs/jsm/loaders/GLTFLoader.js",
+        "cannon": "https://unpkg.com/cannon-es@latest/dist/cannon-es.js"
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="selector-container">
+    <button class="music-toggle" id="musicToggle">
+        <img src="../pic/music_on.png" alt="Music" id="musicIcon">
+    </button>
+    <div class="car-display">
+      <div class="car-info" id="carInfo">Car 1</div>
+      <canvas id="carViewer"></canvas>
+    </div>
+    <div class="controls">
+      <button class="nav-button" id="prevBtn">Previous</button>
+      <button class="play-button" id="playBtn">Play</button>
+      <button class="nav-button" id="nextBtn">Next</button>
+    </div>
+  </div>
+
+  <script type="module" src="./car_ui.js"></script>
+</body>
+</html>

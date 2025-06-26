@@ -95,6 +95,6 @@ Source/
 
 | Giao diện chọn xe | Giao diện chơi game |
 |-------------------|----------------------|
-| ![select](./pic/select_car.jpg) | ![game](./pic/ingame.jpg) |
+| ![select](./Demo_ui.png) | ![game](./Demo.png) |
 
 ---
